@@ -1,0 +1,50 @@
+<!DOCTYPE>
+<!--
+ * Note-o-rama Copyright (c) 2011 Stephen A. Butterfill
+ * License : GPL 3.0
+ -->
+<html>
+<head>
+  <title>Options for Note-o-rama</title>
+  <style>
+    body: {padding: 10px;}
+  </style>
+</head>
+<body>
+  
+  <h3>Please enter your Note-o-rama username</h3>
+  <p>
+    If you don't already have one,
+    <a href="https://notes.butterfill.com" target="_blank">sign up</a>.*
+  </p>
+  <p> 
+    <strong>Username:</strong>
+    <br />
+    <input id="nrama_user" name="username" value=""/>
+  </p>
+  <p> 
+    <strong>Password:</strong>
+    <br />
+    <input id="nrama_pw" value=""/>
+  </p>
+  <p id="see_my_notes">
+    You can view your notes at:
+    <br />
+    <a id="my_notes" href="">http://notes.butterfill.com/users/username</a>
+  </p>
+  <p>
+    NB:  Your notes will be  stored online, not in your browser.
+        They are visible to all, like a blog post or tweet.
+  </p>
+  
+ <p style="margin-top: 2em;">
+    * To try it out without signing up,enter any username starting with '*', e.g. '*Mary'.
+    If you do this, others may edit or delete your notes.
+ </p>
+ 
+ <div id="status"></div>
+ <button id="save">Save</button>
+
+ <script src="options.js"></script>
+</body>
+</html>
