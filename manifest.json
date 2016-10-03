@@ -2,15 +2,12 @@
   "manifest_version" : 2,
   "name": "Note-o-rama",
   "description": "Add notes and highlights to any web page.",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "background": {
     "scripts" : ["load-nrama-on-btn-click.js"]
   },
   "icons": { "128": "nrama_logo_big.png" },
-  // "options_page": "options.html",
-  "permissions": [
-    "storage", "activeTab", "tabs", "http://*/*", "https://*/*"
-  ],
+  "permissions": ["storage", "activeTab", "tabs", "http://*/*", "https://*/*"],
   "browser_action": {
     "default_title": "Note-o-rama",
     "default_icon": "nrama_logo_16x16.gif"
